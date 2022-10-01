@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifz;
+            background-color: rgb(24, 24, 24);
+            color: white;
+        }
+
+        .ul_nev {
+            border-radius: 5px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .li_float_left {
+            float: left;
+            /* margin-left: 150px; */
+        }
+
+        .li_flote_right {
+            float: right;
+        }
+
+        .li_a_nev {
+            font-size: 19px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifz;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .li_a_nev:hover {
+            /* background-color: #111; */
+            background-color: #4CAF50;
+            transition: 0.25s;
+        }
+
+        .div_login_form {
+            background: rgb(114, 114, 114);
+            opacity: 70%;
+            margin-left: 38.15%;
+            float: left;
+            border-radius: 25px;
+            width: 23.7%;
+            height: auto;
+        }
+
+        .input_user {
+            border-radius: 10px;
+            margin-top: 60px;
+            margin-left: 15%;
+            margin-right: 15%;
+            height: 40px;
+            width: 70%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifz;
+        }
+
+        .input_pass {
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-left: 15%;
+            margin-right: 15%;
+            height: 40px;
+            width: 70%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifz;
+        }
+
+        .input_user:hover {
+            background: rgb(185, 184, 184);
+            transition: 0.5s;
+        }
+
+        .input_pass:hover {
+            background: rgb(185, 184, 184);
+            transition: 0.5s;
+        }
+
+        .input_login {
+            border-radius: 10px;
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 34.5%;
+            height: 40px;
+            width: 35%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifz;
+        }
+
+        .input_login:hover {
+            background: #4CAF50;
+            transition: 0.25s;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .div_Broz_Before_Hoes {
+            transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            background-image: url("52987463_885380591837096_8716707781172215738_n (1).jpg");
+            height: 700px;
+            border: 1px solid rgb(24, 24, 24);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .div_Broz_Before_Hoes:hover {
+            background-image: url('53046872_123957118694689_3513304880970136800_n.jpg');
+            transition: 0.25s;
+        }
+
+        .h1_Broz_Before_Hoes {
+            margin-top: 30%;
+            font-family: cursive;
+            text-align: center;
+            font-size: 400%;
+            color: black;
+            opacity: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="ul_nev">
+        <li class="li_float_left"><a class="li_a_nev" href="index.html"><b>Home</b></a></li>
+        <li class="li_flote_right"><a class="li_a_nev"
+                href="https://www.youtube.com/channel/UCGmQKXMj6E03aSzp3LKlM4Q"><b>YouTube
+                    Channel</b></a></li>
+        <li class="li_flote_right">
+            <a class="li_a_nev" href="https://www.instagram.com/_burhan.here_/"><b>Instagram</b></a>
+        </li>
+        <li class="li_flote_right"><a class="li_a_nev"
+                href="https://www.facebook.com/burhanburewala"><b>Facebook</b></a></li>
+        <li class="li_flote_right"><a class="li_a_nev" href="https://twitter.com/burhan_here"><b>Twitter</b></a></li>
+        <li class="li_flote_right"><a class="li_a_nev" href="https://www.fiverr.com/share/yEZW6e"><b>Fiverr</b></a></li>
+    </ul>
+    <br><br>
+    <table>
+        <tr>
+            <td>
+                <div class="div_Broz_Before_Hoes">
+                    <H1 class="h1_Broz_Before_Hoes">Broz Before Hoes</H1>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="div_login_form">
+                    <form>
+                        <input class="input_user" type="text" name="Uname" id="Uname" placeholder="Username">
+                        <input class="input_pass" type="Password" name="Pass" id="Pass" placeholder="Password">
+                        <input class="input_login" type="submit" name="log" id="log" value="Sign In">
+                    </form>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>
+                    Homies
+                </h3>
+                <ol>
+                    <li>Abdul Hadi Durani</li>
+                    <li>Ahmad Shakoor</li>
+                    <li>Musab Shazad</li>
+                    <li>Ibatsam Qurashi</li>
+                    <li>Muhammad Burhan</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
